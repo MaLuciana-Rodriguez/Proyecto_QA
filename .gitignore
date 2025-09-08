@@ -1,0 +1,32 @@
+# Ignorar la carpeta de dependencias de Node.js
+
+node_modules/
+ 
+# Ignorar los resultados de la cobertura del código
+
+coverage/
+ 
+# Ignorar el directorio de caché de Cypress
+
+.cpress/
+ 
+# Ignorar el archivo de configuración de Cypress que se puede generar automáticamente
+
+# (aunque a menudo se configura el `cypress.config.js`)
+
+cypress.env.json
+ 
+# Ignorar archivos de configuración generados por el editor de texto (ej. VS Code)
+
+.vscode/
+ 
+# Ignorar archivos de sistema específicos del sistema operativo
+
+.DS_Store
+
+Thumbs.db
+ 
+# Ignorar logs de Cypress si los generas
+
+cypress.log
+ 
