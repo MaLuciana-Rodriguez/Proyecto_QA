@@ -21,7 +21,7 @@ describe('Signup/login button', () => {
   it('should display signup/login button', () => {
     cy.visit('https://automationexercise.com/');
     cy.get(Name).should('contain', 'Luciana'); // Replace with the actual selector that contains the user's name after login
-    cy.get(loginEmailAdress).type('mluciana@gmail.com'); // Replace with the actual email input selector
+    cy.get(loginEmailAdress).type('mlucianarodriguez@gmail.com'); // Replace with the actual email input selector
     cy.get(signupButton).click(); // Replace with the actual logout button selector 
   });
 });
